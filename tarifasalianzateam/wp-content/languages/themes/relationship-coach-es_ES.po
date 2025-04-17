@@ -1,0 +1,141 @@
+# Translation of Themes - Relationship Coach in Spanish (Spain)
+# This file is distributed under the same license as the Themes - Relationship Coach package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-04-07 18:39:07+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: es\n"
+"Project-Id-Version: Themes - Relationship Coach\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Relationship Coach is a free coaching WordPress theme designed to help coaches, mentors, therapists, speakers, leaders, counselors, copywriters, course creators, medical practitioners, and entrepreneurs to generate more leads. With this theme, you can create a professional website to showcase your services and introduce yourself to potential clients. The theme includes sections like a banner with a call-to-action, about, services, testimonials, call-to-actions, a newsletter sign-up, and an Instagram feed to help promote your business. It is also compatible with WooCommerce and works well with LMS plugins like LearnDash and TutorLMS. This theme is SEO-optimized and loads fast to help your site rank better. Relationship Coach is also translation-ready, schema-friendly, and RTL script-ready. Check demo at https://blossomthemes.com/theme-demo/?theme=relationship-coach, documentation at https://docs.blossomthemes.com/coachpress-lite/, and get support at https://blossomthemes.com/support-ticket/"
+msgstr "Relationship Coach es un tema gratuito de WordPress diseñado para ayudar a orientadores, mentores, terapeutas, oradores, líderes, consejeros, redactores, creadores de cursos, profesionales médicos y emprendedores a generar más clientes potenciales. Con este tema, puedes crear una web profesional para mostrar tus servicios y presentarte a clientes potenciales. El tema incluye secciones como un banner con llamada a la acción, acerca de, servicios, recomendaciones, llamadas a la acción, registro para boletines de noticias y un feed de Instagram para ayudar a promocionar tu negocio. Además, es compatible con WooCommerce y funciona bien con plugins LMS como LearnDash y TutorLMS. Este tema está optimizado para SEO y carga rápido para ayudar a que tu web tenga mejor ranking en los motores de búsqueda. Relationship Coach también está preparado para la traducción, es compatible con esquemas y está listo para el script RTL. Puedes comprobar una demo en https://blossomthemes.com/theme-demo/?theme=relationship-coach, consultar la documentación en https://docs.blossomthemes.com/coachpress-lite/ y obtener soporte en https://blossomthemes.com/support-ticket/."
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Relationship Coach"
+msgstr "Relationship Coach"
+
+#: sections/banner.php:23
+msgid "To empower women to make a positive impact on the world with fiery passion, unbridled self-belief, and head-turning style."
+msgstr "Empoderar a las mujeres para que influyan positivamente en el mundo con una pasión ardiente, una confianza en sí mismas sin límites y un estilo arrebatador."
+
+#: sections/banner.php:22
+msgid "Be The Spark That Lights Up The Room"
+msgstr "Sé la chispa que ilumina la habitación"
+
+#: sections/banner.php:18
+msgid "Know More"
+msgstr "Saber más"
+
+#: sections/banner.php:16
+msgid "Get Started"
+msgstr "Comienza"
+
+#: sections/banner.php:15
+msgid "Read More"
+msgstr "Leer Más"
+
+#: inc/parent-functions.php:352
+msgid " Powered by %s. "
+msgstr " Funciona con %s. "
+
+#: inc/parent-functions.php:350
+msgid " Relationship Coach | Developed By "
+msgstr "Relationship Coach | Desarrollado por "
+
+#: inc/parent-functions.php:273
+msgctxt "Site Title Font: on or off"
+msgid "on"
+msgstr "on"
+
+#: inc/parent-functions.php:272
+msgctxt "Tertiary Font: on or off"
+msgid "on"
+msgstr "on"
+
+#: inc/parent-functions.php:271
+msgctxt "Secondary Font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not supported
+#. by respective fonts, translate this to 'off'. Do not translate into your own
+#. language.
+#: inc/parent-functions.php:270
+msgctxt "Primary Font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:205
+msgid "This button shows only on header layout 2."
+msgstr "Este botón solo se muestra en el diseño 2 de la cabecera."
+
+#: functions.php:204 functions.php:222
+msgid "Header Contact Button"
+msgstr "Botón de contacto de la cabecera"
+
+#: functions.php:185
+msgid "Flush Local Fonts Cache"
+msgstr "Vaciar la caché de las fuentes locales"
+
+#: functions.php:171
+msgid "Flush Local Font Files"
+msgstr "Vaciar los archivos de fuentes locales"
+
+#: functions.php:169
+msgid "Click the button to reset the local fonts cache"
+msgstr "Haz clic en el botón para restablecer la caché de fuentes locales"
+
+#: functions.php:161
+msgid "Preloading Google fonts will speed up your website speed."
+msgstr "La precarga de las fuentes de Google acelerará la velocidad de tu web."
+
+#: functions.php:160
+msgid "Preload Local Fonts"
+msgstr "Precargar las fuentes locales"
+
+#: functions.php:141
+msgid "Enable to load google fonts from your own server instead from google's CDN. This solves privacy concerns with Google's CDN and their sometimes less-than-transparent policies."
+msgstr "Activa la carga de las fuentes de Google desde tu propio servidor en lugar de hacerlo desde la CDN de Google. Esto resuelve los problemas de privacidad con la CDN de Google y sus políticas a veces poco transparentes."
+
+#: functions.php:140
+msgid "Load Google Fonts Locally"
+msgstr "Cargar las fuentes de Google localmente"
+
+#: functions.php:117
+msgid "Choose the layout of the cta static banner for your site."
+msgstr "Elige el diseño del banner estático de llamada a la acción para tu sitio."
+
+#: functions.php:96 functions.php:116
+msgid "CTA Static Banner Layout"
+msgstr "Diseño del banner estático de llamada a la acción"
+
+#: functions.php:83
+msgid "Choose the layout of the header for your site."
+msgstr "Elige el diseño de la cabecera para tu sitio."
+
+#: functions.php:61 functions.php:82
+msgid "Header Layout"
+msgstr "Diseño de la cabecera"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://blossomthemes.com/"
+msgstr "https://blossomthemes.com/"
+
+#. Author of the theme
+#: inc/parent-functions.php:351
+#, gp-priority: low
+msgid "Blossom Themes"
+msgstr "Blossom Themes"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://blossomthemes.com/wordpress-themes/relationship-coach/"
+msgstr "https://blossomthemes.com/wordpress-themes/relationship-coach/"

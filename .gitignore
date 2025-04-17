@@ -1,0 +1,51 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de configuración local
+.env
+*.env
+
+# Archivos comprimidos y backups
+*.zip
+*.rar
+*.7z
+BACKUP_*
+public_html.zip
+alianza-team.zip
+
+# Archivos sensibles o personalizados
+config.php
+core.php
+
+# Archivos de log
+*.log
+error_log
+
+# Editor y herramientas
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Composer y Node (por si en un futuro lo usas)
+vendor/
+node_modules/
+
+# Cache de PHP y otros
+cache/
+*.cache
+*.bak
+*.swp
+
+# Archivos temporales de sesiones
+sessions/
+*.sess
+
+# Archivos de subida temporales
+uploads/tmp/
+tmp/
+
+# Otras carpetas que pueden ser privadas
+storage/

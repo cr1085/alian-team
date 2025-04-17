@@ -1,0 +1,358 @@
+/*
+Theme Name: Relationship Coach
+Theme URI: https://blossomthemes.com/wordpress-themes/relationship-coach/
+Template: coachpress-lite  
+Author: Blossom Themes
+Author URI: https://blossomthemes.com/
+Description: Relationship Coach is a free coaching WordPress theme designed to help coaches, mentors, therapists, speakers, leaders, counselors, copywriters, course creators, medical practitioners, and entrepreneurs to generate more leads. With this theme, you can create a professional website to showcase your services and introduce yourself to potential clients. The theme includes sections like a banner with a call-to-action, about, services, testimonials, call-to-actions, a newsletter sign-up, and an Instagram feed to help promote your business. It is also compatible with WooCommerce and works well with LMS plugins like LearnDash and TutorLMS. This theme is SEO-optimized and loads fast to help your site rank better. Relationship Coach is also translation-ready, schema-friendly, and RTL script-ready. Check demo at https://blossomthemes.com/theme-demo/?theme=relationship-coach, documentation at https://docs.blossomthemes.com/coachpress-lite/, and get support at https://blossomthemes.com/support-ticket/
+Version: 1.0.0
+License: GNU General Public License v3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Tested up to: 6.1
+Requires PHP: 5.6
+Text Domain: relationship-coach
+Tags: blog,one-column,two-columns,right-sidebar,left-sidebar,footer-widgets,custom-background,custom-header,custom-menu,custom-logo,featured-images,threaded-comments,full-width-template,rtl-language-support,translation-ready,theme-options,photography,e-commerce
+*/
+
+
+:root {
+    --primary-color: #0a7996;
+    --primary-color-rgb: 10, 121, 150;
+    --secondary-color: #f2663e;
+    --secondary-color-rgb: 242, 102, 62;
+    --black-color: #171717;
+    --black-color-rgb: 23, 23, 23;
+    --white-color-rgb: 255, 255, 255;
+    --primary-font: 'Lato', sans-serif;
+    --secondary-font: 'Jost', sans-serif;
+    --cursive-font: 'Waterfall', cursive;
+}
+
+/*================================
+SITE HEADER STYLE FOUR
+================================*/
+.site-header.style-four .header-top {
+    background: rgba(var(--primary-color-rgb), 0.2);
+}
+
+.site-header.style-four .header-top .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.site-header.style-four .header-top .header-center {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.site-header.style-four .header-top .header-block {
+    font-size: 0.7778em;
+    letter-spacing: 0.5px;
+}
+
+.site-header.style-four .header-top .header-block+.header-block {
+    margin-left: 30px;
+}
+
+.site-header.style-four .header-top .header-block svg {
+    color: var(--black-color);
+    margin-right: 5px;
+}
+
+.site-header.style-four .header-top .header-block svg.fa-phone {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.site-header.style-four .header-top .header-block a {
+    color: var(--black-color);
+}
+
+.site-header.style-four .header-social+.header-cart,
+.site-header.style-four .header-search+.header-cart {
+    border-left: 1px solid rgba(var(--primary-color-rgb), 0.56);
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.site-header.style-four .header-top .secondary-menu {
+    line-height: 1;
+    margin-left: 20px;
+}
+
+.site-header.style-four .header-top .secondary-menu .toggle-btn {
+    display: inline-block;
+    background: none;
+    border: none;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    min-height: auto;
+    position: relative;
+}
+
+.site-header.style-four .header-top .secondary-menu .toggle-btn .toggle-bar {
+    background: rgba(var(--black-color-rgb), 0.6);
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.site-header.style-four .header-top .secondary-menu .toggle-btn .toggle-bar:first-child {
+    top: -15px;
+}
+
+.site-header.style-four .header-top .secondary-menu .toggle-btn .toggle-bar:last-child {
+    bottom: -16px;
+}
+
+.site-header.style-four .header-top .secondary-menu .toggle-btn:hover .toggle-bar {
+    background: var(--primary-color);
+}
+
+.site-header.style-four .header-top .secondary-menu>div {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 350px;
+    height: 100%;
+    background: var(--white-color);
+    box-shadow: -10px 0 20px rgba(var(--black-color-rgb), 0.15);
+    z-index: 99999;
+    display: none;
+}
+
+.site-header.style-four .header-top .secondary-menu .close {
+    position: absolute;
+    top: 35px;
+    left: 10px;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    min-height: auto;
+    background: none;
+}
+
+.site-header.style-four .header-top .secondary-menu .close::before,
+.site-header.style-four .header-top .secondary-menu .close::after {
+    content: "";
+    background: var(--primary-color);
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: all ease 0.35s;
+    -moz-transition: all ease 0.35s;
+    transition: all ease 0.35s;
+}
+
+.site-header.style-four .header-top .secondary-menu .close::after {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.site-header.style-four .header-top .secondary-menu .close:hover::before,
+.site-header.style-four .header-top .secondary-menu .close:hover::after {
+    background: var(--secondary-color)
+}
+
+.site-header.style-four .header-top .secondary-menu .nav-menu {
+    width: 350px;
+    padding: 60px 40px;
+    display: block;
+    text-align: right;
+    height: 100%;
+    overflow: auto;
+}
+
+.site-header.style-four .header-top .secondary-menu ul li {
+    font-size: 1.06em;
+    display: block;
+}
+
+.site-header.style-four .header-top .secondary-menu ul li a {
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(var(--primary-color-rgb), 0.35);
+    display: block;
+}
+
+.site-header.style-four .header-top .secondary-menu ul li.menu-item-has-children>a {
+    padding-left: 30px;
+}
+
+.site-header.style-four .header-top .secondary-menu ul li .submenu-toggle {
+    right: auto;
+    left: 0;
+    width: 25px;
+    height: 65px;
+    -webkit-transform: none;
+    -moz-transform: none;
+    transform: none;
+}
+
+.site-header.style-four .header-top .secondary-menu ul li .sub-menu {
+    position: static;
+    width: 100%;
+    background: none;
+    box-shadow: none;
+    clip: inherit;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+    display: none;
+}
+
+.site-header.style-four .header-top .secondary-menu ul ul li {
+    font-size: 1em;
+}
+
+.site-header.style-four .header-top .secondary-menu ul li .submenu-toggle.active {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.site-header.style-four .header-main .container {
+    justify-content: center;
+}
+
+.site-header.style-four .header-bottom {
+    border-top: 1px solid rgba(var(--primary-color-rgb), 0.2);
+}
+
+.site-header.style-four .header-bottom .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.site-header.style-four .header-bottom .nav-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.site-header.style-four .header-bottom .main-navigation {
+    align-items: flex-start;
+    flex: initial;
+}
+
+.site-header.style-four .header-bottom .main-navigation .nav-menu>li {
+    font-size: 0.8888em;
+}
+
+.site-header.style-four .header-bottom .main-navigation ul ul li {
+    font-size: 1em;
+}
+
+.site-header.style-four .header-bottom .main-navigation .nav-menu>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.site-header.style-four .header-bottom .main-navigation+.button-wrap {
+    margin-left: 40px;
+}
+
+.site-header.style-four .header-bottom .header-search+.header-cart {
+    border-left: 1px solid rgba(var(--primary-color-rgb), 0.56);
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+/*================================
+Static Banner Five
+================================*/
+.site-banner.static-cta.style-five .banner-caption .banner-desc {
+    margin-top: 17px;
+}
+
+.site-banner.static-cta.style-five .banner-caption .banner-desc p {
+    margin-top: 0;
+}
+
+.site-banner.static-cta.style-five .banner-caption .banner-desc p:last-child {
+    margin-bottom: 0;
+}
+
+.site-banner.static-cta.style-five .item .banner-caption {
+    padding: 30px 0 0 0;
+
+}
+
+.site-banner.static-cta.style-five .item .banner-caption {
+    background: unset;
+}
+
+@media(min-width:992px) {
+    .site-banner.static-cta.style-five .item .banner-caption {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .site-banner.static-cta.style-five .item {
+        align-items: center;
+    }
+
+    .site-banner.static-cta.style-five .item.left {
+        flex-direction: row-reverse;
+    }
+
+    .site-banner.static-cta.style-five .banner-caption .banner-desc {
+        margin-top: 30px;
+    }
+
+    .site-banner.static-cta.style-five .item.right .banner-caption {
+        padding: 0 0 0 65px;
+    }
+
+    .site-banner.static-cta.style-five .item .wp-custom-header {
+        width: 50%;
+    }
+
+    .site-banner.static-cta.style-five .item.left .banner-caption {
+        padding: 0 65px 0 0;
+    }
+
+} 
+
+@media only screen and (min-width: 992px) {
+    .site-banner.static-cta .item .wp-custom-header img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .site-banner.static-cta:is(.style-one, .style-five) .banner-caption > .container {
+        padding: 0;
+    }
+}
